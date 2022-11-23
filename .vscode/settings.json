@@ -6,6 +6,7 @@
         "dropna",
         "ffill",
         "iloc",
+        "nbviewer",
         "ohlcv",
         "vwap"
     ]
