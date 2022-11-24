@@ -5,6 +5,8 @@ Let's dig dipper into probability. With a rolling window, we are simulating what
 
 ## Bayes' Theorem:
 
+[Wikipedia](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+
 Normally when the market is efficient, the probability that everyone sees are the same, and there is no edge to place any bet. However, if a trader can see some evidence that is not well know, he should have an edge and hopefully can have an edge on trading. Bayes Theorem is found useful to update a prior probability which is giving no edge, to a posterior probability that maybe profitable to trade on.
 
 ### Formula
@@ -41,7 +43,9 @@ then
 
 $P(up5d|above) = \dfrac{P(above|up5d)P(up5d)}{P(above|up5d)P(up5d)+P(above|\neg up5d)P(\neg up5d)}$
 
-## Kelly Criterion
+## Kelly Criterion 
+
+[Wikipedia](https://en.wikipedia.org/wiki/Kelly_criterion)
 
 In probability theory, the Kelly criterion (or Kelly strategy or Kelly bet), is a formula that determines the optimal theoretical size for a bet.
 
