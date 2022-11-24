@@ -40,3 +40,30 @@ $P(B) =P(above),\ i.e.\ P(sma50 > sma200)$
 then 
 
 $P(up5d|above) = \dfrac{P(above|up5d)P(up5d)}{P(above|up5d)P(up5d)+P(above|\neg up5d)P(\neg up5d)}$
+
+## Kelly Criterion
+
+In probability theory, the Kelly criterion (or Kelly strategy or Kelly bet), is a formula that determines the optimal theoretical size for a bet.
+
+### Formula (Gambling)
+
+$f* = p - \dfrac{q}{b} = p - \dfrac{(1-p)}{b}$ 
+
+where 
+
+* $f^{*}$ is the fraction of the current bankroll to wager.
+* $p$ is the probability of a win.
+* $q$ is the probability of a loss.
+* $b$ is the proportion of the bet gained with a win. E.g. If betting $10 on a 2-to-1 odds bet, (upon win you are returned $30, winning you $20), then b=2.
+
+### Formula (Investment)
+
+$f* = \dfrac{p}{a} - \dfrac{q}{b}$
+
+where
+
+* $f^{*}$ is the fraction of the assets to apply to the security.
+* $p$ is the probability that the investment increases in value.
+* $q$ is the probability that the investment decreases in value.
+* $a$ is the fraction that is lost in a negative outcome. If the security price falls 10%, then $a=0.1$.
+* $b$ is the fraction that is gained in a positive outcome. If the security price rises 10%, then $b=0.1$.
