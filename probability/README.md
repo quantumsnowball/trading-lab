@@ -22,6 +22,17 @@ $P(A|B) = \dfrac{P(B|A)P(A)}{\sum_{A'}{P(B|A')}{P(A')}}$
 ### Example
 let
 
+$P(A) =P(6),\ i.e.\ P(dice\ 6)$
+
+$P(B) =P(even),\ i.e.\ P(dice\ even)$
+
+then 
+
+$P(6|even) = \dfrac{P(even|6)P(6)}{P(even)} = \dfrac{(1)1/6}{1/2} = \dfrac{1}{3}$
+
+### Example
+let
+
 $P(A) =P(up5d),\ i.e.\ P(price\ increased\ in\ 5\ days)$
 
 $P(B) =P(above),\ i.e.\ P(sma50 > sma200)$
