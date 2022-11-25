@@ -17,24 +17,15 @@ def neg(val: str) -> str:
     return r'\neg{' + val + '}'
 
 
-class Event:
+class Formula:
     def __init__(self,
-                 name: str,
-                 prob: float | None = None) -> None:
-        self.name = name
-        self.prob = prob
-
-
-class Bayes:
-    def __init__(self,
-                 *,
                  eventA: str,
                  eventB: str) -> None:
         self._eventA = eventA
         self._eventB = eventB
 
     @property
-    def formula(self):
+    def basic(self):
         A, B = self._eventA, self._eventB
         left = P_cond(A, B)
         top = P_cond(B, A) + P(A)
@@ -42,7 +33,7 @@ class Bayes:
         display(Markdown('$' + left + ' = ' + dfrac(top, bottom) + '$'))
 
     @property
-    def formula_long(self):
+    def long(self):
         A, B = self._eventA, self._eventB
         left = P_cond(A, B)
         top = P_cond(B, A) + P(A)
