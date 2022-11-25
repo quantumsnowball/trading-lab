@@ -19,4 +19,4 @@ def test_dice(A, p_A, B, p_B, p_B_given_A, p_A_given_B):
     a = Event(A, p_A)
     b = Event(B, p_B).given(a, p_B_given_A)
     ans = Bayes(a, b).prob
-    assert round(ans, 6) == round(p_A_given_B, 6)
+    assert round(ans.value, 6) == round(p_A_given_B, 6)
