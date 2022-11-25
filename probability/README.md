@@ -7,6 +7,8 @@ Let's dig dipper into probability. With a rolling window, we are simulating what
 
 [Wikipedia](https://en.wikipedia.org/wiki/Bayes%27_theorem)
 
+[Visualize](https://static.laszlokorte.de/stochastic/)
+
 Normally when the market is efficient, the probability that everyone sees are the same, and there is no edge to place any bet. However, if a trader can see some evidence that is not well know, he should have an edge and hopefully can have an edge on trading. Bayes Theorem is found useful to update a prior probability which is giving no edge, to a posterior probability that maybe profitable to trade on.
 
 ### Formula
